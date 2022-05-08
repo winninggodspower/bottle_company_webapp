@@ -12,3 +12,8 @@ $(".nav-item").hover(
       $(this).removeClass('border-3');
     }
   });
+
+  // adding animation to text
+const HeadingText = $('.heading-text');
+HeadingText.css("display","none")
+HeadingText.slideDown(1500)
